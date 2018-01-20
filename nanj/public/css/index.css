@@ -1,0 +1,156 @@
+html {
+  background-color: #000;
+  font-family:Avenir,"Open Sans","Helvetica Neue",Helvetica,Arial,Verdana,Roboto,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Meiryo UI",メイリオ,Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-feature-settings:"palt";
+  font-size: 16px;
+}
+
+body {
+  color: #fff;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1000px;
+}
+
+header {
+  width: 100%;
+  border-bottom: solid 1px #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 img {
+  height: 100px;
+}
+
+h2 {
+  font-size: 10px;
+}
+
+nav{
+  background: #566EB3;
+}
+
+.btn_menu{
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  z-index: 200;
+  text-align: center;
+  align-items: center;
+  background: rgb(179, 86, 86);
+
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left:0;
+  display: none;
+  width: 100%;
+  list-style-type: none;
+  font-size: 20px;
+  background: #566EB3;
+}
+
+.navbar li{
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar li:hover{
+  background: rgb(24, 137, 255);
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.content{
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.content h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.content h2{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex_container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_inner{
+  margin:10px;
+  text-align: center;
+  flex: 1;
+}
+
+.comingsoon{
+  margin-top: 20px;
+  font-size: 60px;
+  color:#566EB3;
+}
+
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images img {
+  width:300px;
+  margin: 10px;
+}
+
+footer {
+  padding: 20px;
+  border-top: solid 1px #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (min-width:768px) {
+  .btn_menu{
+    display: none;
+  }
+  
+  .navbar{
+    position: relative;
+    width: auto;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .fixed{
+    position: fixed;
+    width: 100%;
+     top: 0;
+     z-index: 100;
+  }
+  .flex_container{
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  }
