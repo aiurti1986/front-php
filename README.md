@@ -7,5 +7,4 @@
 1. 完成。
 
 ## how to change css, js
-css place is /public/css/hoge.css
-js place is /public/js/hoge.js
+css, jsの場所は /public/css と /public/js です。
