@@ -1,4 +1,4 @@
-# for NANJ by nanJ
+# for NANJ by NANJ
 
 [laravel5.5多言語化](https://readouble.com/laravel/5.5/ja/localization.html#retrieving-translation-strings)
 ## how to use multi language file.
