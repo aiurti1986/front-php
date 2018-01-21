@@ -13,7 +13,7 @@ return [
     'community' => '论坛',
     'whatIsNanJ' => 'NANJ是什么？',
     'whatIsNanJDescription' =>
-        'NANJ币是发源于5ch的Ethereum（以太坊）的通证。<br>由。<br> 我们将于2018年2月下旬实行ICO。<br>',
+        'NANJ币是发源于5ch的Ethereum（以太坊）的通证。<br>由有志团体进行开发，运营。<br> 我们将于2018年2月下旬实行ICO。<br>',
     'tokenDetail' => '关于通证',
     'tokenName' => '通证名： NANJ',
     'tokenSymbol' => '通证象征： NANJ',
